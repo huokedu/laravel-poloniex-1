@@ -1,0 +1,24 @@
+{
+  "name": "thosuperman/laravel-poloniex",
+  "description": "Poloniex API wrapper for Laravel",
+  "tags": ["poloniex", "api", "laravel", "cryptocurrency"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tho Nguyen",
+      "email": "thosuperman@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "ext-curl": "*",
+    "laravel/framework": ">=5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Thosuperman\\Poloniex\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
